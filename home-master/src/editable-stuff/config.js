@@ -13,23 +13,11 @@ const mainBody = {
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/Jaibean",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/jaimie-bertoli/",
     },
   ],
 };
@@ -51,11 +39,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/biopic.png"),
   imageSize: 375,
   message:
     "My name is Jaimie Bertoli I am passionate about expanding my knowledge on technology and how to utilize compute power to the fullest. Growing as a developer by building different projects and learning about using public cloud services.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "https://docs.google.com/document/d/1-btCEBkn4msk69Jm_UoIg4whUg0UsRa2G9lfA6XVp_I/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,7 +54,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "Jaibean", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -79,12 +67,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/biopic.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/biopic.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -100,14 +88,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "Python", value: 60 },
+    { name: "SQL", value: 60 },
+    { name: "Data Structures", value: 75 },
+    { name: "C#", value: 65 },
+    { name: "JavaScript", value: 80 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "HTML/CSS", value: 90 },
+    { name: "Django", value: 60 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,8 +114,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Software Engineering or Front End Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "jaimie.bertoli@gmail.com",
 };
 
 const experiences = {
@@ -135,14 +123,22 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Python/Django Developer',// Here Add Company Name
+      company: 'J.P. Morgan & Chase Co.',
+      companylogo: require('../assets/img/afreebird.png'),
+      date: 'June 2021 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Software Engineer',
+      company: 'Prosper I.T. Consulting',
+      companylogo: require('../assets/img/prosperIT.png'),
+      date: 'January 2021 – April 2021',
+    },
+    {
+      role: 'Business Systems Analyst / Front-End Developer',
+      company: 'JPMorgan Chase & Co.',
+      companylogo: require('../assets/img/jpmc.png'),
+      date: 'August 2016 – October 2020',
     },
   ]
 }
